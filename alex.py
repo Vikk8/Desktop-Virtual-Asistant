@@ -82,7 +82,7 @@ if __name__ == "__main__":
             speak(" For your information Vikki Gupta Created me !    I can show you his Linked In profile if you want to see.    Yes or no .....")
             ans_from_user_who_made_you = takeCommand()
             if 'yes' in ans_from_user_who_made_you or 'ok' in ans_from_user_who_made_you or 'yeah' in ans_from_user_who_made_you:
-                webbrowser.open("https://www.linkedin.com/in/vikki-gupta-1a70641a2/")
+                webbrowser.open("https://www.linkedin.com/in/vikkigupta8/")
                 speak('opening his profile...... please wait')
 
             elif 'no' in ans_from_user_who_made_you or 'no thanks' in ans_from_user_who_made_you or 'not' in ans_from_user_who_made_you:
